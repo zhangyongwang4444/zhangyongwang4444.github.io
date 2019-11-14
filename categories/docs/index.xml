@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>docs on 张永旺的个人博客</title>
-    <link>http://localhost:1313/categories/docs/</link>
+    <link>https://zhangyongwang.com/categories/docs/</link>
     <description>Recent content in docs on 张永旺的个人博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 04 Mar 2019 16:01:23 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/categories/docs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zhangyongwang.com/categories/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Math Preview</title>
-      <link>http://localhost:1313/post/math-preview/</link>
+      <link>https://zhangyongwang.com/post/math-preview/</link>
       <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/math-preview/</guid>
+      <guid>https://zhangyongwang.com/post/math-preview/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.intmath.com/cg5/katex-mathjax-comparison.php&#34;&gt;KaTeX and MathJax Comparison Demo, currently processed as KaTex&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Shortcodes Preview</title>
-      <link>http://localhost:1313/post/shortcodes-preview/</link>
+      <link>https://zhangyongwang.com/post/shortcodes-preview/</link>
       <pubDate>Sun, 04 Mar 2018 16:01:23 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/shortcodes-preview/</guid>
+      <guid>https://zhangyongwang.com/post/shortcodes-preview/</guid>
       <description>&lt;h2 id=&#34;what-a-shortcode-is&#34;&gt;What a Shortcode is&lt;/h2&gt;
 
 &lt;p&gt;Hugo loves Markdown because of its simple content format, but there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video &lt;code&gt;&amp;lt;iframes&amp;gt;&lt;/code&gt;) to Markdown content. We think this contradicts the beautiful simplicity of Markdown&amp;rsquo;s syntax.&lt;/p&gt;
@@ -41,10 +41,10 @@
     
     <item>
       <title>Image Preview</title>
-      <link>http://localhost:1313/post/image-preview/</link>
+      <link>https://zhangyongwang.com/post/image-preview/</link>
       <pubDate>Sat, 03 Mar 2018 16:01:23 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/image-preview/</guid>
+      <guid>https://zhangyongwang.com/post/image-preview/</guid>
       <description>&lt;p&gt;Thanks for &lt;a href=&#34;https://github.com/liwenyip/hugo-easy-gallery&#34;&gt;liwenyip/hugo-easy-gallery&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane/pull/48&#34;&gt;Zebradil · Pull Request #48&lt;/a&gt; .&lt;/p&gt;
 
 &lt;p&gt;Now, we could use &lt;code&gt;{{&amp;lt; gallery &amp;gt;}}&lt;/code&gt; shortcode in hugo-theme-jane.&lt;/p&gt;
@@ -59,19 +59,19 @@
     
     <item>
       <title>Shortcodes Notice Preview</title>
-      <link>http://localhost:1313/post/shortcode-notice/</link>
+      <link>https://zhangyongwang.com/post/shortcode-notice/</link>
       <pubDate>Sat, 03 Mar 2018 16:01:23 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/shortcode-notice/</guid>
+      <guid>https://zhangyongwang.com/post/shortcode-notice/</guid>
       <description>normal use Note example: {{% notice note %}} A notice disclaimer {{% /notice %}} Result: note A notice disclaimer You could custom title : {{% notice note 笔记 %}} A notice disclaimer {{% /notice %}} 笔记 A notice disclaimer tip {{% notice tip %}} A tip disclaimer {{% /tip %}} tip A tip disclaimer info {{% notice info %}} A info disclaimer {{% /notice %}} info An information</description>
     </item>
     
     <item>
       <title>Jane-Theme Footnote Preview</title>
-      <link>http://localhost:1313/post/doc-footnote-preview/</link>
+      <link>https://zhangyongwang.com/post/doc-footnote-preview/</link>
       <pubDate>Thu, 01 Mar 2018 16:01:23 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/doc-footnote-preview/</guid>
+      <guid>https://zhangyongwang.com/post/doc-footnote-preview/</guid>
       <description>&lt;p&gt;Hugo-theme-jane optimized for footnote. When you mouse hover the footnote&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:example&#34;&gt;&lt;a href=&#34;#fn:example&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; , footnote content will be displayed.&lt;/p&gt;</description>
     </item>
     
