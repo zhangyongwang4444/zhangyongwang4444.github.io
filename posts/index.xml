@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 张永旺的个人博客</title>
-    <link>http://example.org/posts/</link>
+    <link>https://example.org/posts/</link>
     <description>Recent content in Posts on 张永旺的个人博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-Hans</language>
+    <language>en-us</language>
     <lastBuildDate>Thu, 14 Nov 2019 12:24:41 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>hugo使用</title>
-      <link>http://example.org/posts/hugo%E4%BD%BF%E7%94%A8/</link>
+      <link>https://example.org/posts/hugo%E4%BD%BF%E7%94%A8/</link>
       <pubDate>Thu, 14 Nov 2019 12:24:41 +0800</pubDate>
       
-      <guid>http://example.org/posts/hugo%E4%BD%BF%E7%94%A8/</guid>
+      <guid>https://example.org/posts/hugo%E4%BD%BF%E7%94%A8/</guid>
       <description>windows 安装方式  Step 1: Install Hugo 1. 从 github 上下载 hugo https://github.com/gohugoio/hugo/releases 2. 解压，把hugo.exe放到 D:\Software\hugo\hugo.exe 3. 把D:\Software\hugo\ 加到 PATH 4. 重启终端，运行 hugo version 查看版本 5. 进入hugo官网 https://gohugo.io/  Step 2: Create a New Site hugo new site quickstart  Step 3: Add a Theme cd quickstart # Download the theme git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.toml  Step 4: Add Some Content hugo new posts/my-first-post.</description>
     </item>
     
     <item>
       <title>愿我们都前程似锦</title>
-      <link>http://example.org/posts/%E6%84%BF%E6%88%91%E4%BB%AC%E9%83%BD%E5%89%8D%E7%A8%8B%E4%BC%BC%E9%94%A6/</link>
+      <link>https://example.org/posts/%E6%84%BF%E6%88%91%E4%BB%AC%E9%83%BD%E5%89%8D%E7%A8%8B%E4%BC%BC%E9%94%A6/</link>
       <pubDate>Thu, 14 Nov 2019 11:37:25 +0800</pubDate>
       
-      <guid>http://example.org/posts/%E6%84%BF%E6%88%91%E4%BB%AC%E9%83%BD%E5%89%8D%E7%A8%8B%E4%BC%BC%E9%94%A6/</guid>
+      <guid>https://example.org/posts/%E6%84%BF%E6%88%91%E4%BB%AC%E9%83%BD%E5%89%8D%E7%A8%8B%E4%BC%BC%E9%94%A6/</guid>
       <description>有句话说的好：“张华考上了清华大学，我在百货公司做柜员，我们都有光明的前程”。你走你的经天路，我过我的油坊桥。</description>
     </item>
     
     <item>
       <title>第二篇博客</title>
-      <link>http://example.org/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://example.org/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Thu, 14 Nov 2019 11:35:40 +0800</pubDate>
       
-      <guid>http://example.org/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://example.org/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
       <description>今天我配置好了自己的域名
 地址是： zhangyongwang.com</description>
     </item>
     
     <item>
       <title>开通博客啦</title>
-      <link>http://example.org/posts/%E5%BC%80%E9%80%9A%E5%8D%9A%E5%AE%A2%E5%95%A6/</link>
+      <link>https://example.org/posts/%E5%BC%80%E9%80%9A%E5%8D%9A%E5%AE%A2%E5%95%A6/</link>
       <pubDate>Thu, 14 Nov 2019 10:14:33 +0800</pubDate>
       
-      <guid>http://example.org/posts/%E5%BC%80%E9%80%9A%E5%8D%9A%E5%AE%A2%E5%95%A6/</guid>
+      <guid>https://example.org/posts/%E5%BC%80%E9%80%9A%E5%8D%9A%E5%AE%A2%E5%95%A6/</guid>
       <description>今天，我的博客开通了</description>
     </item>
     

@@ -3,41 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/posts/hugo%E4%BD%BF%E7%94%A8/</loc>
+    <loc>https://example.org/posts/hugo%E4%BD%BF%E7%94%A8/</loc>
     <lastmod>2019-11-14T12:24:41+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/posts/</loc>
+    <loc>https://example.org/posts/</loc>
     <lastmod>2019-11-14T12:24:41+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://example.org/</loc>
     <lastmod>2019-11-14T12:24:41+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/posts/%E6%84%BF%E6%88%91%E4%BB%AC%E9%83%BD%E5%89%8D%E7%A8%8B%E4%BC%BC%E9%94%A6/</loc>
+    <loc>https://example.org/posts/%E6%84%BF%E6%88%91%E4%BB%AC%E9%83%BD%E5%89%8D%E7%A8%8B%E4%BC%BC%E9%94%A6/</loc>
     <lastmod>2019-11-14T11:37:25+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://example.org/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2019-11-14T11:35:40+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/posts/%E5%BC%80%E9%80%9A%E5%8D%9A%E5%AE%A2%E5%95%A6/</loc>
+    <loc>https://example.org/posts/%E5%BC%80%E9%80%9A%E5%8D%9A%E5%AE%A2%E5%95%A6/</loc>
     <lastmod>2019-11-14T10:14:33+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://example.org/categories/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://example.org/tags/</loc>
   </url>
   
 </urlset>
