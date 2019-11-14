@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://zhangyongwang.com/posts/hugo%E4%BD%BF%E7%94%A8/</loc>
-    <lastmod>2019-11-14T12:24:41+08:00</lastmod>
+    <loc>https://zhangyongwang.com/posts/</loc>
+    <lastmod>2019-11-14T14:33:26+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zhangyongwang.com/posts/</loc>
-    <lastmod>2019-11-14T12:24:41+08:00</lastmod>
+    <loc>https://zhangyongwang.com/posts/%E5%B8%B8%E7%94%A8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
+    <lastmod>2019-11-14T14:33:26+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://zhangyongwang.com/</loc>
+    <lastmod>2019-11-14T14:33:26+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangyongwang.com/posts/hugo%E4%BD%BF%E7%94%A8/</loc>
     <lastmod>2019-11-14T12:24:41+08:00</lastmod>
   </url>
   
