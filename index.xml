@@ -1,61 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>张永旺的个人博客</title>
-    <link>https://zhangyongwang.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on 张永旺的个人博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-Hans</language>
-    <lastBuildDate>Thu, 14 Nov 2019 14:33:26 +0800</lastBuildDate>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 14 Nov 2019 15:16:21 +0800</lastBuildDate>
     
-	<atom:link href="https://zhangyongwang.com/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>常用数据结构</title>
-      <link>https://zhangyongwang.com/posts/%E5%B8%B8%E7%94%A8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link>
-      <pubDate>Thu, 14 Nov 2019 14:33:26 +0800</pubDate>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
       
-      <guid>https://zhangyongwang.com/posts/%E5%B8%B8%E7%94%A8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</guid>
-      <description>队列 Queue 栈 Stack 链表 Linked List 哈希表 树</description>
+      <guid>http://localhost:1313/about/</guid>
+      
+        <description>&lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
+
+&lt;p&gt;It makes use of a variety of open source projects including:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;Cobra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/viper&#34;&gt;Viper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/jWalterWeatherman&#34;&gt;J Walter Weatherman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cast&#34;&gt;Cast&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+      
     </item>
     
     <item>
-      <title>hugo使用</title>
-      <link>https://zhangyongwang.com/posts/hugo%E4%BD%BF%E7%94%A8/</link>
-      <pubDate>Thu, 14 Nov 2019 12:24:41 +0800</pubDate>
+      <title>Posts</title>
+      <link>http://localhost:1313/post/</link>
+      <pubDate>Thu, 14 Nov 2019 15:16:21 +0800</pubDate>
       
-      <guid>https://zhangyongwang.com/posts/hugo%E4%BD%BF%E7%94%A8/</guid>
-      <description>windows 安装方式  Step 1: Install Hugo 1. 从 github 上下载 hugo https://github.com/gohugoio/hugo/releases 2. 解压，把hugo.exe放到 D:\Software\hugo\hugo.exe 3. 把D:\Software\hugo\ 加到 PATH 4. 重启终端，运行 hugo version 查看版本 5. 进入hugo官网 https://gohugo.io/  Step 2: Create a New Site hugo new site quickstart  Step 3: Add a Theme cd quickstart # Download the theme git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.toml  Step 4: Add Some Content hugo new posts/my-first-post.</description>
-    </item>
-    
-    <item>
-      <title>愿我们都前程似锦</title>
-      <link>https://zhangyongwang.com/posts/%E6%84%BF%E6%88%91%E4%BB%AC%E9%83%BD%E5%89%8D%E7%A8%8B%E4%BC%BC%E9%94%A6/</link>
-      <pubDate>Thu, 14 Nov 2019 11:37:25 +0800</pubDate>
+      <guid>http://localhost:1313/post/</guid>
       
-      <guid>https://zhangyongwang.com/posts/%E6%84%BF%E6%88%91%E4%BB%AC%E9%83%BD%E5%89%8D%E7%A8%8B%E4%BC%BC%E9%94%A6/</guid>
-      <description>有句话说的好：“张华考上了清华大学，我在百货公司做柜员，我们都有光明的前程”。你走你的经天路，我过我的油坊桥。
-这一年，我在南京，你在哪里？</description>
-    </item>
-    
-    <item>
-      <title>第二篇博客</title>
-      <link>https://zhangyongwang.com/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
-      <pubDate>Thu, 14 Nov 2019 11:35:40 +0800</pubDate>
+        <description></description>
       
-      <guid>https://zhangyongwang.com/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
-      <description>今天我配置好了自己的域名
-地址是： zhangyongwang.com</description>
-    </item>
-    
-    <item>
-      <title>开通博客啦</title>
-      <link>https://zhangyongwang.com/posts/%E5%BC%80%E9%80%9A%E5%8D%9A%E5%AE%A2%E5%95%A6/</link>
-      <pubDate>Thu, 14 Nov 2019 10:14:33 +0800</pubDate>
-      
-      <guid>https://zhangyongwang.com/posts/%E5%BC%80%E9%80%9A%E5%8D%9A%E5%AE%A2%E5%95%A6/</guid>
-      <description>今天，我的博客开通了</description>
     </item>
     
   </channel>
