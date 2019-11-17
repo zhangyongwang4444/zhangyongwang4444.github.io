@@ -23,21 +23,7 @@
   </url>
   
   <url>
-    <loc>https://zhangyongwang.com/react/</loc>
-    <lastmod>2019-11-17T12:32:18+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://zhangyongwang.com/post/react%E9%80%A0%E8%BD%AE%E5%AD%90/</loc>
-    <lastmod>2019-11-17T12:32:18+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhangyongwang.com/react/react%E9%80%A0%E8%BD%AE%E5%AD%90/</loc>
     <lastmod>2019-11-17T12:32:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -114,14 +100,14 @@
   </url>
   
   <url>
-    <loc>https://zhangyongwang.com/tags/math/</loc>
+    <loc>https://zhangyongwang.com/categories/math/</loc>
     <lastmod>2019-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://zhangyongwang.com/categories/math/</loc>
+    <loc>https://zhangyongwang.com/tags/math/</loc>
     <lastmod>2019-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -156,14 +142,14 @@
   </url>
   
   <url>
-    <loc>https://zhangyongwang.com/categories/shortcodes/</loc>
+    <loc>https://zhangyongwang.com/tags/shortcodes/</loc>
     <lastmod>2018-03-07T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://zhangyongwang.com/tags/shortcodes/</loc>
+    <loc>https://zhangyongwang.com/categories/shortcodes/</loc>
     <lastmod>2018-03-07T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -233,14 +219,14 @@
   </url>
   
   <url>
-    <loc>https://zhangyongwang.com/tags/english/</loc>
+    <loc>https://zhangyongwang.com/categories/english/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://zhangyongwang.com/categories/english/</loc>
+    <loc>https://zhangyongwang.com/tags/english/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

@@ -23,7 +23,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="张永旺" />
-  <meta name="description" content="组件 Icon组件 对话框组件 布局组件 表单组件" />
+  <meta name="description" content="组件 Icon组件 对话框组件 布局组件 表单组件 /* * TODO: * 1. 支持子字段编辑（子表单） * 2. 支持更多的 type / 自定义的 input * 3. 支持手机端 * * */ import * as React from &amp;quot;react&amp;quot;; import {ReactFragment}" />
 
   <meta name="keywords" content="Hugo, theme, jane" />
 
@@ -60,25 +60,25 @@
 
 
 <meta property="og:title" content="React造轮子" />
-<meta property="og:description" content="组件 Icon组件 对话框组件 布局组件 表单组件" />
+<meta property="og:description" content="组件 Icon组件 对话框组件 布局组件 表单组件 /* * TODO: * 1. 支持子字段编辑（子表单） * 2. 支持更多的 type / 自定义的 input * 3. 支持手机端 * * */ import * as React from &quot;react&quot;; import {ReactFragment}" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://zhangyongwang.com/post/react%E9%80%A0%E8%BD%AE%E5%AD%90/" />
 <meta property="article:published_time" content="2019-11-17T12:32:18+08:00" />
 <meta property="article:modified_time" content="2019-11-17T12:32:18+08:00" />
 <meta itemprop="name" content="React造轮子">
-<meta itemprop="description" content="组件 Icon组件 对话框组件 布局组件 表单组件">
+<meta itemprop="description" content="组件 Icon组件 对话框组件 布局组件 表单组件 /* * TODO: * 1. 支持子字段编辑（子表单） * 2. 支持更多的 type / 自定义的 input * 3. 支持手机端 * * */ import * as React from &quot;react&quot;; import {ReactFragment}">
 
 
 <meta itemprop="datePublished" content="2019-11-17T12:32:18&#43;08:00" />
 <meta itemprop="dateModified" content="2019-11-17T12:32:18&#43;08:00" />
-<meta itemprop="wordCount" content="21">
+<meta itemprop="wordCount" content="276">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="React造轮子"/>
-<meta name="twitter:description" content="组件 Icon组件 对话框组件 布局组件 表单组件"/>
+<meta name="twitter:description" content="组件 Icon组件 对话框组件 布局组件 表单组件 /* * TODO: * 1. 支持子字段编辑（子表单） * 2. 支持更多的 type / 自定义的 input * 3. 支持手机端 * * */ import * as React from &quot;react&quot;; import {ReactFragment}"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -440,7 +440,99 @@
 <li>Icon组件</li>
 <li>对话框组件</li>
 <li>布局组件</li>
-<li>表单组件</li>
+
+<li><p>表单组件</p>
+
+<pre><code>/*
+*  TODO:
+*  1. 支持子字段编辑（子表单）
+*  2. 支持更多的 type / 自定义的  input
+*  3. 支持手机端
+*
+*
+*/
+import * as React from &quot;react&quot;;
+import {ReactFragment} from &quot;react&quot;;
+import Input from &quot;../input/input&quot;;
+import classes from &quot;../helpers/classes&quot;;
+import './form.scss';
+
+export interface FormValue {
+[K: string]: any
+}
+
+interface Props {
+value: FormValue;
+fields: Array&lt;{ name: string, label: string, input: { type: string } }&gt;;
+buttons: ReactFragment;
+onSubmit: React.FormEventHandler&lt;HTMLFormElement&gt;;
+onChange: (value: FormValue) =&gt; void;
+errors: { [K: string]: string[] };
+errorsDisplayMode?: 'first' | 'all';
+transformError?: (message: string) =&gt; string;
+}
+
+const Form: React.FunctionComponent&lt;Props&gt; = (props) =&gt; {
+const formData = props.value;
+const onSubmit: React.FormEventHandler&lt;HTMLFormElement&gt; = (e) =&gt; {
+    e.preventDefault();
+    props.onSubmit(e);
+};
+const onInputChange = (name: string, value: string) =&gt; {
+    const newFormValue = {...formData, [name]: value};
+    props.onChange(newFormValue)
+};
+const transformError = (message: string) =&gt; {
+    const map: any = {
+        required: 'required',
+        minLength: 'too short',
+        maxLength: 'too long',
+        pattern: 'Incorrect format'
+    };
+    return props.transformError &amp;&amp; props.transformError(message) || map[message] || '未知错误';
+};
+return (
+    &lt;form onSubmit={onSubmit}&gt;
+        &lt;table className=&quot;react-ui-form-table&quot;&gt;
+            &lt;tbody&gt;
+            {props.fields.map(f =&gt;
+                &lt;tr className={classes('react-ui-form-tr')} key={f.name}&gt;
+                    &lt;td className=&quot;react-ui-form-td&quot;&gt;
+                        &lt;span className=&quot;react-ui-form-label&quot;&gt;{f.label}&lt;/span&gt;
+                    &lt;/td&gt;
+                    &lt;td className=&quot;react-ui-form-td&quot;&gt;
+                        &lt;Input className=&quot;react-ui-form-input&quot;
+                               type={f.input.type}
+                               value={formData[f.name]}
+                               onChange={(e) =&gt; onInputChange(f.name, e.target.value)}
+                        /&gt;
+                        &lt;div className=&quot;react-ui-form-error&quot;&gt;
+                            {props.errors[f.name] ?
+                                (props.errorsDisplayMode === 'first' ?
+                                    transformError!(props.errors[f.name][0]) :
+                                    props.errors[f.name].map(transformError!).join()) :
+                                &lt;span&gt;&amp;nbsp;&lt;/span&gt;
+                            }
+                        &lt;/div&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            )}
+            &lt;tr className=&quot;react-ui-form-tr&quot;&gt;
+                &lt;td className=&quot;react-ui-form-td&quot;/&gt;
+                &lt;td className=&quot;react-ui-form-td&quot;&gt;{props.buttons}&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;
+    &lt;/form&gt;
+)
+};
+
+
+Form.defaultProps = {
+errorsDisplayMode: 'first'
+};
+export default Form;
+</code></pre></li>
 </ol>
 
     </div>
